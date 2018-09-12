@@ -288,7 +288,7 @@
 .reveal .slides section .code-presenting-annotation {
   color: white;
   background: black;
-  padding: 1px 15px;
+  padding: 0px 15px;
   border-radius: 15px;
   opacity: 0.75 !important;
   font-size: 50% !important;
