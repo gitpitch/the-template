@@ -29,7 +29,7 @@ The Fastest Way From Idea To Presentation.
 ![TIP](template/img/tip.png)
 <br>
 For the best viewing experience, press F for fullscreen.
-@css[template-note](You can also use the *SPACE* key to navigate between slides.)
+@css[template-note](We recommend using the *SPACE* key to navigate between slides.)
 
 ---?include=template/md/split-screen/PITCHME.md
 
