@@ -1,65 +1,76 @@
----?color=linear-gradient(to right, #c02425, #f0cb35)
-@title[Introduction]
+---
+@title[Edge Detection]
++++
+@title[Table of Contents]
+---
+@title[What makes an Edge?]
++++
+@title[Problem 1]
+Picture of Low-Contrast Edge (e.g. orange edge in yellow picture)
++++
+@title[Problem 2]
+Picture of fade-out-edge
++++
+@title[Problem 3]
+Picture of thick edge (basicly new item)
++++
+@title[Problem 4]
+Picture of random noise
++++
+@title[Definition]
+Clear definition what an edge is
+---
+@title[The Basics for Gradient-Based Edgedetection]
++++
+@title[Image as Pixel Matrix]
+Just show what i'm working on, and what we are talking about
+Figure of a picture with a grid-raster on it
++++
+@title[One Dimensional Approach]
+Take one row of pixels from the previous picture to show how we use the derivative of the discrete function
++++
+@title[Two Dimensional Approach]
+show why we need a real gradient when we have 2 Dimensions
++++
+@title[Applying a filter]
+show how to scale the derivatives and why its usefull
+---
+@title[Advanced Gradient-Based Edgedetection]
 
-@snap[west headline text-white span-70]
-GitPitch<br>*The Template*
-@snapend
++++
+@title[Using 3x3 Filters]
+basic Idea how we can apply 3x3 filters to our picture
++++
+@title[Prewitt Operator]
 
-@snap[south-west byline  text-white]
-The Fastest Way From Idea To Presentation.
-@snapend
++++
+@title[Sobel Operators]
+
++++
+@title[Getting the Direction]
+show arctang and what it does
+---
+@title[Compass Operators]
+Idea and Main Problems (Tradeoff Edge-Detection and Direction-Detection)
++++
+@title[Extended Sobel operator]
+Show the Extended Sobel operators and why we have 8 of them now, what we are doing with them and why its good.
++++
+@title[Kirsch Operator]
+i guess just presenting it would be enough, if i explain a lot at the extended sobel
++++
+@title[Canny-Edge Operator]
+why its the "best" and how it works with 2nd derivative
 
 ---
-@title[Slide Markdown]
+@title[Edge Sharpening]
 
-### Each slide in this presentation is provided as a *template*.
-
-<br><br>
-
-1. Select only the slide templates that you need.
-1. Customize the template _markdown content_.
-1. Optionally, override template _styles_ and _settings_.
-1. Then present and publish with GitPitch @fa[smile-o]
-<br><br>
-
++++
+@title[Smoothing]
 
 ---
-@title[Tip! Fullscreen]
-
-![TIP](template/img/tip.png)
-<br>
-For the best viewing experience, press F for fullscreen.
-@css[template-note](We recommend using the *SPACE* key to navigate between slides.)
-
----?include=template/md/split-screen/PITCHME.md
-
----?include=template/md/sidebar/PITCHME.md
-
----?include=template/md/list-content/PITCHME.md
-
----?include=template/md/image/PITCHME.md
-
----?include=template/md/sidebox/PITCHME.md
-
----?include=template/md/code-presenting/PITCHME.md
-
----?include=template/md/header-footer/PITCHME.md
-
----?include=template/md/quotation/PITCHME.md
-
----?include=template/md/announcement/PITCHME.md
-
----?include=template/md/about/PITCHME.md
-
----?include=template/md/wrap-up/PITCHME.md
-
+@title[Possible Addition: Use in Medicine]
+Iff i still have time to fill or i find something very nice dudes
 ---
-@title[The Template Docs]
-
-@snap[west headline span-100]
-GitPitch<br>*The Template @css[text-orange](End) ;)*
-@snapend
-
-@snap[south docslink span-100]
-For supporting documentation see the [The Template Docs](https://gitpitch.com/docs/the-template)
-@snapend
+@title[Questions and Discussions]
+also list primary sources here
