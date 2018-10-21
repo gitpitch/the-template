@@ -1,7 +1,7 @@
 --- @title[Edge Detection]
 # Edge Detection
 
-+++?include=template/md/list-content/PITCHME.md @title[Table of Contents]
++++ @title[Table of Contents]
 ## Table of Contents
 1. What makes an edge?
 2. Basics of gradient-based edgedetection
@@ -12,21 +12,22 @@
 --- @title[What makes an Edge?]
 ## What makes an edge?
 
-+++?include=template/img/SimColour.png @title[Problem 1]
++++ @title[Problem 1]
 ### Problem I
 Picture of Low-Contrast Edge (e.g. orange edge in yellow picture)
 
-+++?include=template/img/gradientchange.jpg @title[Problem 2]
+![Image](template/img/SimColour.png)
++++ @title[Problem 2]
 ### Problem II
 Picture of fade-out-edge
-
+![Image](template/img/gradientchange.jpg)
 +++ @title[Problem 3]
 ### Problem III
 Picture of thick edge (basicly new item)
 
-+++?include=template/img/noise.png @title[Problem 4]
++++ @title[Problem 4]
 ### Problem IV
-
+![Image](template/img/noise.png )
 +++ @title[Definition]
 ### Definition
 
