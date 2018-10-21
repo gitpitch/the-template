@@ -34,7 +34,7 @@
 @transition[none]
 
 @snap[east]
-![sample](/images/greyball.png)
+![sample](images/greyball.png)
 @snapend
 
 @snap[north]
@@ -55,7 +55,7 @@ Requirements: <br/>
 <h3> One dimensional approach </h3>
 @snapend
 @snap[midpoint]
-![plot](/images/1DGradient.png)
+![plot](images/1DGradient.png)
 @snapend
 @snap[south]
 take one row of the matrix (1 Dimension), and plot a function and a derivative
@@ -64,11 +64,11 @@ take one row of the matrix (1 Dimension), and plot a function and a derivative
 +++
 @snap[north]
 Problem: image can only be seen as discrete function (pixel per pixel). <br/>
-Therefore: '\[ \dfrac{df}{dx}(u) \approx \dfrac{f(u+1) - f(u-1)}{(u+1)-(u-1)} = \dfrac{f(u+1) - f(u-1)}{2}\]' 
+Therefore: '$$ \dfrac{df}{dx}(u) \approx \dfrac{f(u+1) - f(u-1)}{(u+1)-(u-1)} = \dfrac{f(u+1) - f(u-1)}{2}$$' 
 @snapend
 
 @snap[midpoint]
-![derivative](/images/1DGradientApproximation.png)
+![derivative](images/1DGradientApproximation.png)
 @snapend
 
 @snap[south]
