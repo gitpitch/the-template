@@ -60,11 +60,11 @@ Requirements: <br/>
 @snapend
 
 @snap[south]
-@size[12](take one row of the matrix, and plot a function and a derivative)
+@size[9](take one row of the matrix, and plot a function and a derivative)
 @snapend
 
 +++
-@snap[north] @size[12](Problem: image can only be seen as discrete function (pixel per pixel)).
+@snap[north]Problem: image can only be seen as discrete function (pixel per pixel))
 <br/>Therefore: $$ \dfrac{df}{dx}(u) \approx \dfrac{f(u+1) - f(u-1)}{(u+1)-(u-1)} = \dfrac{f(u+1) - f(u-1)}{2}$$ 
 @snapend
 
