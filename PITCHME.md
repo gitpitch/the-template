@@ -16,9 +16,8 @@
 ### Problem I: similiar colours
 ![Image](images/simcolour.png)
 
-+++
++++?image=images/gradientchange.jpg
 ### Problem II: minor changes
-![Image](images/gradientchange.jpg)
 
 +++
 ### Problem III: random noise
