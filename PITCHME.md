@@ -34,7 +34,7 @@
 @transition[none]
 
 @snap[east]
-![sample](images/greyball.png)
+![sample](images/noise.png)
 @snapend
 
 @snap[north]
@@ -62,7 +62,7 @@ Requirements: <br/>
 @snapend
 
 +++
-@snap[north] @size[12](Problem: image can only be seen as discrete function (pixel per pixel).<br/>Therefore: $$ \dfrac{df}{dx}(u) \approx \dfrac{f(u+1) - f(u-1)}{(u+1)-(u-1)} = \dfrac{f(u+1) - f(u-1)}{2}$$)@snapend
+@snap[north] @size[12](Problem: image can only be seen as discrete function (pixel per pixel).<br/>Therefore: $$ \dfrac{df}{dx}(u) \approx \dfrac{f(u+1) - f(u-1)}{(u+1)-(u-1)} = \dfrac{f(u+1) - f(u-1)}{2}$$) @snapend
 
 @snap[midpoint]
 ![derivative](images/1DGradientApproximation.png)
