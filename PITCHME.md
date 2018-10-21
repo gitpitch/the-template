@@ -13,27 +13,21 @@
 ## What makes an edge?
 
 +++
-### Problem I
-Picture of Low-Contrast Edge (e.g. orange edge in yellow picture)
-
-![Image](/template/img/SimColour.png)
-
-+++
-### Problem II
-Picture of fade-out-edge
-![Image](/template/img/gradientchange.jpg)
+### Problem I: similiar colours
+<br/>
+![Image](/images/simcolour.png)
 
 +++
-### Problem III
-Picture of thick edge (basicly new item)
+### Problem II: minor changes
+![Image](/images/gradientchange.jpg)
 
 +++
-### Problem IV
-![Image](/template/img/noise.png )
+### Problem III: random noise
+![Image](/images/noise.png )
 
 +++
 ### Definition
-In Image Processing, an edge can be defined as a set of contiguous pixel positions where an abrupt change of intensity (gray or color) values occur. Edges represent boundaries between objects and background. Sometimes, the edge-pixel-sequence may be broken due to insufficient intensity difference. (Malay K. Pakhira )
+@quote[In Image Processing, an edge can be defined as a set of contiguous pixel positions where an abrupt change of intensity (gray or color) values occur. Edges represent boundaries between objects and background. Sometimes, the edge-pixel-sequence may be broken due to insufficient intensity difference.](Malay K. Pakhira )
 
 ---
 ## The basics of gradient-based edgedetection
