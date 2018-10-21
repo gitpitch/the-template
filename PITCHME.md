@@ -13,7 +13,7 @@
 ## What makes an edge?
 
 +++
-@snap[north] ### Problem I: similiar colours @snapend
+@snap[north-east] ### Problem I: similiar colours @snapend
 ![Image](images/simcolour.png)
 
 +++?image=images/gradientchange.jpg
@@ -32,8 +32,16 @@
 
 +++
 ### Image as Pixelmatrix
-Just show what i'm working on, and what we are talking about
-Figure of a picture with a grid-raster on it
+@snap[north-east] 
+Requirements: <br/>
+1. color values known
+2. picture scale known
+3. load picture as pixer-matrix
+@snapend
+@snap[north-west]
+something else, 
+probably the picture
+@snapend
 +++
 ### One dimensional approach
 Take one row of pixels from the previous picture to show how we use the derivative of the discrete function
