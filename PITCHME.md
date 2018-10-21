@@ -29,6 +29,28 @@
 
 ---
 ## The basics of gradient-based edgedetection
+---
+@transition[none]
+
+@snap[north]
+North
+@snapend
+
+@snap[east]
+East
+@snapend
+
+@snap[south]
+South
+@snapend
+
+@snap[west]
+West
+@snapend
+  
+@snap[midpoint]
+MidPoint
+@snapend
 
 +++
 ### Image as Pixelmatrix
