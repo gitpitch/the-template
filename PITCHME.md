@@ -45,8 +45,7 @@ Requirements: <br/>
 @snapend
 
 @snap[east]
-something else, 
-probably the picture
+![TestImage](/images/noise.png)
 @snapend
 +++
 ### One dimensional approach
