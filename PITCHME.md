@@ -1,7 +1,7 @@
---- @title[Edge Detection]
+---@title[Edge Detection]
 # Edge Detection
 
-+++ @title[Table of Contents]
++++@title[Table of Contents]
 ## Table of Contents
 1. What makes an edge?
 2. Basics of gradient-based edgedetection
@@ -9,30 +9,33 @@
 4. compass operators
 5. (can be left) medical use
 
---- @title[What makes an Edge?]
+---@title[What makes an Edge?]
 ## What makes an edge?
 
-+++ @title[Problem 1]
++++@title[Problem 1]
 ### Problem I
 Picture of Low-Contrast Edge (e.g. orange edge in yellow picture)
 
 ![Image](/template/img/SimColour.png)
-+++ @title[Problem 2]
+
++++@title[Problem 2]
 ### Problem II
 Picture of fade-out-edge
 ![Image](/template/img/gradientchange.jpg)
-+++ @title[Problem 3]
+
++++@title[Problem 3]
 ### Problem III
 Picture of thick edge (basicly new item)
 
-+++ @title[Problem 4]
++++@title[Problem 4]
 ### Problem IV
 ![Image](/template/img/noise.png )
-+++ @title[Definition]
+
++++@title[Definition]
 ### Definition
 In Image Processing, an edge can be defined as a set of contiguous pixel positions where an abrupt change of intensity (gray or color) values occur. Edges represent boundaries between objects and background. Sometimes, the edge-pixel-sequence may be broken due to insufficient intensity difference. (Malay K. Pakhira )
 
---- @title[The Basics for Gradient-Based edgedetection]
+---@title[The Basics for Gradient-Based edgedetection]
 ## The basics of gradient-based edgedetection
 
 +++ @title[Image as Pixel Matrix]
