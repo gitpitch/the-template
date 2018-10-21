@@ -32,21 +32,21 @@
 
 +++
 @transition[none]
-@snap[north]
-<h3> Image as Pixelmatrix </h3>
-@snapend
-@snap[west]
-Requirements: <br/>
-<ol>
-<li>1. color values known </li>
-<li>2. picture scale known </li>
-<li>3. load picture as pixer-matrix </li>
-</ol>
-@snapend
 
 @snap[east]
 ![TestImage](/images/noise.png)
 @snapend
+
+@snap[north] <h3> Image-requirements</h3>@snapend
+@snap[west]
+<b>Requirements:</b> <br/>
+<ol>
+<li>1. color values known </li>
+<li>2. picture scale known </li>
+<li>3. load picture as pixel-matrix </li>
+</ol>
+@snapend
+
 +++
 ### One dimensional approach
 Take one row of pixels from the previous picture to show how we use the derivative of the discrete function
