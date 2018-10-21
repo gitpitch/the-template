@@ -54,3 +54,5 @@ layout : center
 #
 transition : none
 
+# to use and compile latex
+mathjax : TeX-MML-AM_HTMLorMML-full

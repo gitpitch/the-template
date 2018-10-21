@@ -34,7 +34,7 @@
 @transition[none]
 
 @snap[east]
-![TestImage](/images/noise.png)
+![sample](/images/greyball.png)
 @snapend
 
 @snap[north]
@@ -51,8 +51,29 @@ Requirements: <br/>
 @snapend
 
 +++
-### One dimensional approach
-Take one row of pixels from the previous picture to show how we use the derivative of the discrete function
+@snap[north]
+<h3> One dimensional approach </h3>
+@snapend
+@snap[midpoint]
+![plot](/images/1DGradient.png)
+@snapend
+@snap[south]
+take one row of the matrix (1 Dimension), and plot a function and a derivative
+@snapend
+
++++
+@snap[north]
+Problem: image can only be seen as discrete function (pixel per pixel). <br/>
+Therefore: '\[ \dfrac{df}{dx}(u) \approx \dfrac{f(u+1) - f(u-1)}{(u+1)-(u-1)} = \dfrac{f(u+1) - f(u-1)}{2}\]' 
+@snapend
+
+@snap[midpoint]
+![derivative](/images/1DGradientApproximation.png)
+@snapend
+
+@snap[south]
+something something
+@snapend
 
 +++
 ### Two dimensional approach
