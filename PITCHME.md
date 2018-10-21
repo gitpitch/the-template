@@ -33,13 +33,15 @@
 +++
 @transition[none]
 @snap[north]
-### Image as Pixelmatrix
+<h3> Image as Pixelmatrix </h3>
 @snapend
-@snap[west] 
+@snap[west]
 Requirements: <br/>
-1. color values known
-2. picture scale known
-3. load picture as pixer-matrix
+<ol>
+<li>1. color values known </li>
+<li>2. picture scale known </li>
+<li>3. load picture as pixer-matrix </li>
+</ol>
 @snapend
 
 @snap[east]
