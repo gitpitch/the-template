@@ -64,7 +64,8 @@ Requirements: <br/>
 @snapend
 
 +++
-@snap[north] Problem: image can only be seen as discrete function (pixel per pixel)
+@snap[north] 
+Problem: image can only be seen as discrete function (pixel per pixel)
 <br/>Therefore: $$ \dfrac{df}{dx}(u) \approx \dfrac{f(u+1) - f(u-1)}{(u+1)-(u-1)} = \dfrac{f(u+1) - f(u-1)}{2}$$ 
 @snapend
 
