@@ -34,7 +34,7 @@
 @transition[none]
 
 @snap[east]
-![sample](images/greyball.png)
+![sample](images/greyball.PNG)
 @snapend
 
 @snap[north]
@@ -56,7 +56,7 @@ Requirements: <br/>
 @snapend
 
 @snap[midpoint]
-![plot](images/1DGradient.png)
+![plot](images/1DGradient.PNG)
 @snapend
 
 @snap[south]
@@ -64,12 +64,12 @@ Requirements: <br/>
 @snapend
 
 +++
-@snap[north]Problem: image can only be seen as discrete function (pixel per pixel))
+@snap[north] Problem: image can only be seen as discrete function (pixel per pixel)
 <br/>Therefore: $$ \dfrac{df}{dx}(u) \approx \dfrac{f(u+1) - f(u-1)}{(u+1)-(u-1)} = \dfrac{f(u+1) - f(u-1)}{2}$$ 
 @snapend
 
 @snap[midpoint]
-![derivative](images/1DGradientApproximation.png)
+![plot derivative](images/1DGradientApproximation.PNG)
 @snapend
 
 @snap[south]
