@@ -30,10 +30,7 @@ Picture of thick edge (basicly new item)
 ![Image](/template/img/noise.png )
 +++ @title[Definition]
 ### Definition
-
-@snap[east text-white span-50]
 @quote[In Image Processing, an edge can be defined as a set of contiguous pixel positions where an abrupt change of intensity (gray or color) values occur. Edges represent boundaries between objects and background. Sometimes, the edge-pixel-sequence may be broken due to insufficient intensity difference.](Malay K. Pakhira )
-@snapend
 
 --- @title[The Basics for Gradient-Based edgedetection]
 ## The basics of gradient-based edgedetection
