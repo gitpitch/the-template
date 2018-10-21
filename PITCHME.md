@@ -33,17 +33,18 @@
 +++
 @transition[none]
 
+@snap[north] <h3> Image-requirements</h3>@snapend
+
 @snap[east]
 ![TestImage](/images/noise.png)
 @snapend
 
-@snap[north] <h3> Image-requirements</h3>@snapend
 @snap[west]
 <b>Requirements:</b> <br/>
 <ol>
 <li>1. color values known </li>
 <li>2. picture scale known </li>
-<li>3. load picture as pixel-matrix </li>
+<li>3. load picture as <br/> pixel-matrix </li>
 </ol>
 @snapend
 
