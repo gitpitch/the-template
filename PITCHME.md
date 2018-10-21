@@ -16,18 +16,18 @@
 ### Problem I
 Picture of Low-Contrast Edge (e.g. orange edge in yellow picture)
 
-![Image](template/img/SimColour.png)
+![Image](/template/img/SimColour.png)
 +++ @title[Problem 2]
 ### Problem II
 Picture of fade-out-edge
-![Image](template/img/gradientchange.jpg)
+![Image](/template/img/gradientchange.jpg)
 +++ @title[Problem 3]
 ### Problem III
 Picture of thick edge (basicly new item)
 
 +++ @title[Problem 4]
 ### Problem IV
-![Image](template/img/noise.png )
+![Image](/template/img/noise.png )
 +++ @title[Definition]
 ### Definition
 
