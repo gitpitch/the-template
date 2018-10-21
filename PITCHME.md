@@ -35,13 +35,14 @@
 @snap[north]
 ### Image as Pixelmatrix
 @snapend
-@snap[east] 
+@snap[west] 
 Requirements: <br/>
 1. color values known
 2. picture scale known
 3. load picture as pixer-matrix
 @snapend
-@snap[west]
+
+@snap[east]
 something else, 
 probably the picture
 @snapend
