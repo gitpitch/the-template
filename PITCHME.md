@@ -29,38 +29,19 @@
 
 ---
 ## The basics of gradient-based edgedetection
----
-@transition[none]
-
-@snap[north]
-North
-@snapend
-
-@snap[east]
-East
-@snapend
-
-@snap[south]
-South
-@snapend
-
-@snap[west]
-West
-@snapend
-  
-@snap[midpoint]
-MidPoint
-@snapend
 
 +++
+@transition[none]
+@snap[north]
 ### Image as Pixelmatrix
-@snap[north-east] 
+@snapend
+@snap[east] 
 Requirements: <br/>
 1. color values known
 2. picture scale known
 3. load picture as pixer-matrix
 @snapend
-@snap[north-west]
+@snap[west]
 something else, 
 probably the picture
 @snapend
