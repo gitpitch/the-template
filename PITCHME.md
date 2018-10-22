@@ -13,8 +13,8 @@
 ## What makes an edge?
 
 +++
-@snap[north-east] ### Problem I: similiar colours @snapend
 ![Image](images/simcolour.png)
+@snap[north-east] ### Problem I: similiar colours @snapend
 
 +++?image=images/gradientchange.jpg
 ### Problem II: minor changes
@@ -64,25 +64,26 @@ Requirements: <br/>
 @snapend
 
 +++
-@snap[north] 
-@size[9](Problem: image can only be seen as discrete function <br/> 
-(pixel per pixel))
-<br/>Therefore: $$\dfrac{df}{dx}(u) \approx \dfrac{f(u+1) - f(u-1)}{(u+1)-(u-1)} = \dfrac{f(u+1) - f(u-1)}{2}$$ 
-@snapend
-
-@snap[midpoint]
-<br/> <br/>
+@snap[south]
 ![plot derivative](images/1DGradientApproximation.PNG)
 @snapend
-
-@snap[south]
-something something
+@snap[north] 
+@size[7](Problem: image can only be seen as discrete function (pixel per pixel))
+<br/>Therefore: $$\dfrac{df}{dx}(u) \approx \dfrac{f(u+1) - f(u-1)}{(u+1)-(u-1)} = \dfrac{f(u+1) - f(u-1)}{2}$$ 
 @snapend
 
 +++
 ### Two dimensional approach
-show why we need a real gradient when we have 2 Dimensions
+When working with *real* images, we have two dimensions and therefore two partial derivations:
 
+$$I_x = \dfrac{\delta I}{\delta x}(u,v)$$ and $$I_y = \dfrac{\delta I}{\delta y}(u,v)$$
+
+The Gradient at the point *(u,v)* is therefore 
+$$\nabla I(u,v) = \twocolvec{I_x(u,v)}{I_y(u,v)}$$
+
+And the **magnitude** therefore $$|\nabla I|=\sqrt{I_x^2 + I_y^2}$$
++++
+![2D Derivates](images/2DEdgeGradient.PNG)
 +++
 ### Applying a filter
 show how to scale the derivatives and why its usefull
