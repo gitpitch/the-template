@@ -1,65 +1,140 @@
----?color=linear-gradient(to right, #c02425, #f0cb35)
-@title[Introduction]
-
-@snap[west headline text-white span-70]
-GitPitch<br>*The Template*
-@snapend
-
-@snap[south-west byline  text-white]
-The Fastest Way From Idea To Presentation.
-@snapend
+---
+# Edge Detection
+Leonhard Applis - 05.11.2018
++++
+## Table of Contents
+1. What makes an edge?
+2. Basics of gradient-based edgedetection
+3. Advanced gradient-based edgedetection
+4. compass operators
+5. (can be left) medical use
 
 ---
-@title[Slide Markdown]
+## What makes an edge?
 
-### Each slide in this presentation is provided as a *template*.
++++
+![Image](images/simcolour.png)
+@snap[north-east] <h3> Problem I: similiar colours</h3> @snapend
 
-<br><br>
++++?image=images/gradientchange.jpg
+### Problem II: minor changes
 
-1. Select only the slide templates that you need.
-1. Customize the template _markdown content_.
-1. Optionally, override template _styles_ and _settings_.
-1. Then present and publish with GitPitch @fa[smile-o]
-<br><br>
++++
+### Problem III: random noise
+![Image](images/noise.png )
 
-
----
-@title[Tip! Fullscreen]
-
-![TIP](template/img/tip.png)
-<br>
-For the best viewing experience, press F for fullscreen.
-@css[template-note](We recommend using the *SPACE* key to navigate between slides.)
-
----?include=template/md/split-screen/PITCHME.md
-
----?include=template/md/sidebar/PITCHME.md
-
----?include=template/md/list-content/PITCHME.md
-
----?include=template/md/image/PITCHME.md
-
----?include=template/md/sidebox/PITCHME.md
-
----?include=template/md/code-presenting/PITCHME.md
-
----?include=template/md/header-footer/PITCHME.md
-
----?include=template/md/quotation/PITCHME.md
-
----?include=template/md/announcement/PITCHME.md
-
----?include=template/md/about/PITCHME.md
-
----?include=template/md/wrap-up/PITCHME.md
++++
+### Definition
+@quote[In Image Processing, an edge can be defined as a set of contiguous pixel positions where an abrupt change of intensity, gray- or color-values occur. Edges represent boundaries between objects and background. Sometimes, the edge-pixel-sequence may be broken due to insufficient intensity difference.](Malay K. Pakhira )
 
 ---
-@title[The Template Docs]
+## The basics of gradient-based edgedetection
 
-@snap[west headline span-100]
-GitPitch<br>*The Template @css[text-orange](End) ;)*
++++
+@transition[none]
+
+@snap[east]
+![sample](images/greyball.PNG)
 @snapend
 
-@snap[south docslink span-100]
-For supporting documentation see the [The Template Docs](https://gitpitch.com/docs/the-template)
+@snap[north]
+<h3> Image-requirements</h3>
 @snapend
+
+@snap[west]
+Requirements: <br/>
+<ol>
+<li>1. color values known </li>
+<li>2. picture scale known </li>
+<li>3. load as pixelmatrix </li>
+</ol>
+@snapend
+
++++
+@snap[midpoint]
+![plot](images/1DGradient.PNG)
+@snapend
+
+@snap[north]
+<h3> One dimensional approach </h3>
+@snapend
+
+@snap[south]
+@size[9](take one row of the matrix, and plot a function and a derivative)
+@snapend
+
++++
+@snap[south]
+![plot derivative](images/1DGradientApproximation.PNG)
+@snapend
+@snap[north] 
+@size[7](Problem: image can only be seen as discrete function (pixel per pixel))
+<br/>Therefore: $$\dfrac{df}{dx}(u) \approx \dfrac{f(u+1) - f(u-1)}{(u+1)-(u-1)} = \dfrac{f(u+1) - f(u-1)}{2}$$ 
+@snapend
+
++++
+@size[7](If working with full images,we got two dimensions and therefore two partial derivations:)
+
+$$I_x = \dfrac{\partial I}{\partial x}(u,v) , I_y = \dfrac{\partial I}{\partial y}(u,v)$$
+
+@size[7](the **gradient** at the point *(u,v)* is)
+$$ \nabla I(u,v) = \begin{pmatrix} I_x(u,v) \ I_y(u,v) \end{pmatrix} $$
+
+@size[7](And the **magnitude**)  $$|\nabla I|=\sqrt{I_x^2 + I_y^2}$$
++++
+![2D Derivates](images/2DEdgeGradient.PNG)
++++
+@snap[north] <h3> Applying a filter </h3> @snapend
+Transfering the gradient to a *linear filter* is simple:
+
+$$I_x = \begin{bmatrix} -0.5 \ 0 \ 0.5 \end{bmatrix} $$
+and
+$$I_y = \begin{bmatrix} -0.5 & 0 & 0.5 \end{bmatrix} $$
+---
+## Advanced gradient-based edgedetection
+
++++
+### Using 3x3 filters
+basic Idea how we can apply 3x3 filters to our picture
+
++++
+### Prewitt Operator
+
++++
+### Sobel Operator
+
++++
+### Calculating the direction
+show arctang and what it does
+
+show possible problems
+
+---
+## Compass Operators
+Idea and Main Problems (Tradeoff Edge-Detection and Direction-Detection)
+
++++
+### Extended Sobel Operator
+Show the Extended Sobel operators and why we have 8 of them now, what we are doing with them and why its good.
+
++++
+### Kirsch Operator
+i guess just presenting it would be enough, if i explain a lot at the extended sobel
+
++++
+### Canny-Edge Operator
+why its the "best" and how it works with 2nd derivative
+
+---
+## Edge sharpening
+
++++
+### Smoothing
+
+---
+## Medical use
+Iff i still have time to fill or i find something very nice dudes
+
+---
+## Questions
+also list primary sources here

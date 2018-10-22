@@ -25,14 +25,14 @@ theme-override : template/css/PITCHME.css
 # Logo Setting
 # https://gitpitch.com/docs/settings/logo
 #
-logo : template/img/logo.png
+logo : images/OHM.png
 logo-position : top-left
 
 #
 # Footnote Setting
 # Doc: https://gitpitch.com/docs/settings/footnote
 #
-footnote : "GitPitch - The Fastest Way From Idea To Presentation"
+footnote : "Leonhard Applis - 05.11.2018"
 
 #
 # Highlight (Code) Setting
@@ -54,3 +54,5 @@ layout : center
 #
 transition : none
 
+# to use and compile latex
+mathjax : TeX-MML-AM_HTMLorMML-full
