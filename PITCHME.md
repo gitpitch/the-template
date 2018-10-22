@@ -78,18 +78,18 @@ Requirements: <br/>
 $$I_x = \dfrac{\partial I}{\partial x}(u,v) , I_y = \dfrac{\partial I}{\partial y}(u,v)$$
 
 @size[7](the **gradient** at the point *(u,v)* is)
-$$ \nabla I(u,v) = \begin{pmatrix} I_x(u,v) & I_y(u,v) \end{pmatrix} $$
+$$ \nabla I(u,v) = \begin{pmatrix} I_x(u,v) \\ I_y(u,v) \end{pmatrix} $$
 
 @size[7](And the **magnitude**)  $$|\nabla I|=\sqrt{I_x^2 + I_y^2}$$
 +++
 ![2D Derivates](images/2DEdgeGradient.PNG)
 +++
-### Applying a filter
+@snap[north] <h3> Applying a filter </h3> @snapend
 Transfering the gradient to a *linear filter* is simple:
 
-$$I_x = \begin{bmatrix} -0.5 \\ 0 \\ 0.5 \end{bmatrix} 
+$$I_x = \begin{bmatrix} -0.5 \\ 0 \\ 0.5 \end{bmatrix} $$
 and
-$$I_y = \begin{bmatrix} -0.5 & 0 & 0.5 \end{bmatrix}
+$$I_y = \begin{bmatrix} -0.5 & 0 & 0.5 \end{bmatrix} $$
 ---
 ## Advanced gradient-based edgedetection
 
