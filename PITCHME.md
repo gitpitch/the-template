@@ -51,12 +51,12 @@ Requirements: <br/>
 @snapend
 
 +++
-@snap[north]
-<h3> One dimensional approach </h3>
-@snapend
-
 @snap[midpoint]
 ![plot](images/1DGradient.PNG)
+@snapend
+
+@snap[north]
+<h3> One dimensional approach </h3>
 @snapend
 
 @snap[south]
@@ -65,11 +65,13 @@ Requirements: <br/>
 
 +++
 @snap[north] 
-@size[9](Problem: image can only be seen as discrete function (pixel per pixel))
+@size[9](Problem: image can only be seen as discrete function <br/> 
+(pixel per pixel))
 <br/>Therefore: $$\dfrac{df}{dx}(u) \approx \dfrac{f(u+1) - f(u-1)}{(u+1)-(u-1)} = \dfrac{f(u+1) - f(u-1)}{2}$$ 
 @snapend
 
 @snap[midpoint]
+<br/> <br/>
 ![plot derivative](images/1DGradientApproximation.PNG)
 @snapend
 
