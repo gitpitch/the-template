@@ -73,14 +73,14 @@ Requirements: <br/>
 @snapend
 
 +++
-@size[9](If working with full images,we got two dimensions and therefore two partial derivations:)
+@size[7](If working with full images,we got two dimensions and therefore two partial derivations:)
 
-$$I_x = \dfrac{\delta I}{\delta x}(u,v)$$ and $$I_y = \dfrac{\delta I}{\delta y}(u,v)$$
+$$I_x = \dfrac{\delta I}{\delta x}(u,v) , I_y = \dfrac{\delta I}{\delta y}(u,v)$$
 
-@size[9](The Gradient at the point *(u,v)* is)
-$$\nabla I(u,v) = \\begin{pmatrix}I_x(u,v)\\I_y(u,v)\end{pmatrix}$$
+@size[7](the **gradient** at the point *(u,v)* is)
+$$\nabla I(u,v) = \begin{pmatrix}I_x(u,v)\\I_y(u,v)\end{pmatrix} $$
 
-@size[9](And the **magnitude**)  $$|\nabla I|=\sqrt{I_x^2 + I_y^2}$$
+@size[7](And the **magnitude**)  $$|\nabla I|=\sqrt{I_x^2 + I_y^2}$$
 +++
 ![2D Derivates](images/2DEdgeGradient.PNG)
 +++
