@@ -1,6 +1,6 @@
 ---
 # Edge Detection
-
+Leonhard Applis - 05.11.2018
 +++
 ## Table of Contents
 1. What makes an edge?
@@ -14,7 +14,7 @@
 
 +++
 ![Image](images/simcolour.png)
-@snap[north-east] ### Problem I: similiar colours @snapend
+@snap[north-east] <h3> Problem I: similiar colours</h3> @snapend
 
 +++?image=images/gradientchange.jpg
 ### Problem II: minor changes
@@ -73,15 +73,14 @@ Requirements: <br/>
 @snapend
 
 +++
-### Two dimensional approach
-When working with *real* images, we have two dimensions and therefore two partial derivations:
+@size[9](If working with full images,we got two dimensions and therefore two partial derivations:)
 
 $$I_x = \dfrac{\delta I}{\delta x}(u,v)$$ and $$I_y = \dfrac{\delta I}{\delta y}(u,v)$$
 
-The Gradient at the point *(u,v)* is therefore 
-$$\nabla I(u,v) = \twocolvec{I_x(u,v)}{I_y(u,v)}$$
+@size[9](The Gradient at the point *(u,v)* is)
+$$\nabla I(u,v) = \\begin{pmatrix}I_x(u,v)\\I_y(u,v)\end{pmatrix}$$
 
-And the **magnitude** therefore $$|\nabla I|=\sqrt{I_x^2 + I_y^2}$$
+@size[9](And the **magnitude**)  $$|\nabla I|=\sqrt{I_x^2 + I_y^2}$$
 +++
 ![2D Derivates](images/2DEdgeGradient.PNG)
 +++
