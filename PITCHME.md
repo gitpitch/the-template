@@ -100,9 +100,8 @@ basic Idea how we can apply 3x3 filters to our picture
 @snap[north] 
 <h3>Prewitt Operator</h3> 
 @snapend
-@snap[midpoint]
-![iX](images/texPrewittX.JPG)  and  ![iY](images/texPrewittY.JPG) 
-@snapend
+![iX](images/texPrewittX.JPG) ![iY](images/texPrewittY.JPG) 
+
 @snap[south]
 ![iX](images/texPrewittGradient.JPG)
 @snapend
