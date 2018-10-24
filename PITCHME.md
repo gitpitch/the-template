@@ -96,15 +96,13 @@ Transfering the gradient to a *linear filter* is simple:
 basic Idea how we can apply 3x3 filters to our picture
 
 +++
-@snap[north] 
 <h3>Prewitt Operator</h3> 
-@snapend
-<div>
-<img src="images/texPrewittX.JPG" style="width: 35%; margin-top: 0px; border: none; background: none; box-shadow: none;"/>
-<img src="images/texPrewittY.JPG" style="width: 35%; margin-top: 0px; border: none; background: none; box-shadow: none;"/>
+<div style="width:80% ; height=50%">
+<img src="images/texPrewittX.JPG" style="width: 50%; height: 100%; margin-top: 0px; border: none; background: none; box-shadow: none;"/>
+<img src="images/texPrewittY.JPG" style="width: 50%; height:100% ; margin-top: 0px; border: none; background: none; box-shadow: none;"/>
 </div>
-<div>
-<img src="images/texPrewittGradient.JPG" style="heigth: 50%; margin-top: 0px; border: none; background: none; box-shadow: none;"/>
+<div style="width:80% ; height=20%">
+<img src="images/texPrewittGradient.JPG" style="heigth: 100%; margin-top: 0px; border: none; background: none; box-shadow: none;"/>
 </div>
 +++
 
