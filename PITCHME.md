@@ -99,12 +99,13 @@ basic Idea how we can apply 3x3 filters to our picture
 @snap[north] 
 <h3>Prewitt Operator</h3> 
 @snapend
+<div>
 <img src="images/texPrewittX.JPG" style="width: 35%; margin-top: 0px; border: none; background: none; box-shadow: none;"/>
 <img src="images/texPrewittY.JPG" style="width: 35%; margin-top: 0px; border: none; background: none; box-shadow: none;"/>
-@snap[south]
-<img src="images/texPrewittGradient.JPG" style="width: 50%; margin-top: 0px; border: none; background: none; box-shadow: none;"/>
-@snapend
-
+</div>
+<div>
+<img src="images/texPrewittGradient.JPG" style="heigth: 50%; margin-top: 0px; border: none; background: none; box-shadow: none;"/>
+</div>
 +++
 
 @snap[north]
