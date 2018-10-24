@@ -78,7 +78,7 @@ Requirements: <br/>
 $$I_x = \dfrac{\partial I}{\partial x}(u,v) , I_y = \dfrac{\partial I}{\partial y}(u,v)$$
 
 @size[7](the **gradient** at the point *(u,v)* is)
-$$ \nabla I(u,v) = \begin{pmatrix} I_x(u,v) \ I_y(u,v) \end{pmatrix} $$
+![gradient](texGradient.JPG)
 
 @size[7](And the **magnitude**)  $$|\nabla I|=\sqrt{I_x^2 + I_y^2}$$
 +++
@@ -98,11 +98,24 @@ $$I_y = \begin{bmatrix} -0.5 & 0 & 0.5 \end{bmatrix} $$
 basic Idea how we can apply 3x3 filters to our picture
 
 +++
-### Prewitt Operator
+@snap[north] <h3>Prewitt Operator</h3> @snapend
+@snap[east]![iX](images/texPrewittX.JPG) @snapend
 
+@snap[west]![iY](images/texPrewittY.JPG) @snapend
+
+@snap[south]![iX](images/texPrewittGradient.JPG) @snapend
 +++
-### Sobel Operator
 
+@snap[north] <h3>Sobel Operator</h3> @snapend
+@snap[east]![iX](images/texSobelX.JPG) @snapend
+
+@snap[west]![iY](images/texSobelY.JPG) @snapend
+
+@snap[south]![iX](images/texSobelGradient.JPG) @snapend
++++
+@snap[north]<h3>General Magnitude</h3> @snapend
+@snap[midpoint]![magnitude](images/texGeneralMagnitude.JPG)@snapend
+@snap[south] holds for every Operator @snapend
 +++
 ### Calculating the direction
 show arctang and what it does
