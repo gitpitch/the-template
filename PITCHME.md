@@ -100,7 +100,7 @@ basic Idea how we can apply 3x3 filters to our picture
 <h3>Prewitt Operator</h3> 
 @snapend
 @snap[east]
-![iX](images/texPrewittX.JPG) 
+<img src="images/texPrewittX.JPG" style="width: 30%; margin-top: 50px; border: none; background: none; box-shadow: none;"/>
 @snapend
 @snap[west]
 ![iY](images/texPrewittY.JPG) 
