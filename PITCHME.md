@@ -78,7 +78,7 @@ Requirements: <br/>
 $$I_x = \dfrac{\partial I}{\partial x}(u,v) , I_y = \dfrac{\partial I}{\partial y}(u,v)$$
 
 @size[7](the **gradient** at the point *(u,v)* is)
-![gradient](texGradient.JPG)
+ ![gradient](texGradient.JPG)
 
 @size[7](And the **magnitude**)  $$|\nabla I|=\sqrt{I_x^2 + I_y^2}$$
 +++
@@ -87,26 +87,20 @@ $$I_x = \dfrac{\partial I}{\partial x}(u,v) , I_y = \dfrac{\partial I}{\partial 
 @snap[north] <h3> Applying a filter </h3> @snapend
 Transfering the gradient to a *linear filter* is simple:
 
-$$I_x = \begin{bmatrix} -0.5 \ 0 \ 0.5 \end{bmatrix} $$
-and
-$$I_y = \begin{bmatrix} -0.5 & 0 & 0.5 \end{bmatrix} $$
+![iX](images/texLinIX.JPG) and ![iY](images/texLinY.JPG)
 ---
 ## Advanced gradient-based edgedetection
 
 +++
 ### Using 3x3 filters
 basic Idea how we can apply 3x3 filters to our picture
-+++
-where is my text?
+
 +++
 @snap[north] 
 <h3>Prewitt Operator</h3> 
 @snapend
-@snap[east]
-![iX](images/texPrewittX.JPG) 
-@snapend
-@snap[west]
-![iY](images/texPrewittY.JPG) 
+@snap[midpoint]
+![iX](images/texPrewittX.JPG) ![iY](images/texPrewittY.JPG) 
 @snapend
 @snap[south]
 ![iX](images/texPrewittGradient.JPG)
@@ -117,11 +111,8 @@ where is my text?
 @snap[north]
 <h3>Sobel Operator</h3> 
 @snapend
-@snap[east]
-![iX](images/texSobelX.JPG) 
-@snapend
-@snap[west]
-![iY](images/texSobelY.JPG)
+@snap[midpoint]
+![iX](images/texSobelX.JPG) ![iY](images/texSobelY.JPG)
 @snapend
 @snap[south]
 ![iX](images/texSobelGradient.JPG)
