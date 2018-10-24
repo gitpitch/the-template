@@ -1,0 +1,79 @@
+\documentclass[10pt,a4paper]{report}
+\usepackage[latin1]{inputenc}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\author{Leonhard Applis}
+\title{Helper for Formulas}
+\begin{document}
+	\section{Gradient}
+	$\nabla I(u,v) =  \begin{pmatrix}
+	I_x(u,v) \\ I_y(u,v)
+	\end{pmatrix}$
+
+	\section{linear filters}
+	$I_x = \begin{bmatrix}
+	-0.5 & 0 & 0.5
+	\end{bmatrix}$
+	~\newline
+	~\newline
+	~\newline
+	$I_y = \begin{bmatrix}
+	-0.5 \\ 0 \\ 0.5
+	\end{bmatrix}$
+	~\newline
+	\section{3x3 Filters}
+	$\dfrac{1}{4} \cdot \begin{bmatrix}
+	0 & -1 & 0 \\ -1 & 0 & 1 \\ 0 & 1 & 0
+	\end{bmatrix} $
+	~\newline
+	~\newline
+	~\newline
+	\paragraph{Prewitt} ~\newline
+	~\newline
+	~\newline
+	~\newline
+		$H^P_y = \begin{bmatrix}
+	-1 & -1 & -1 \\ 0 & 0 & 0 \\ 1 & 1 & 1
+	\end{bmatrix} $
+	~\newline
+	~\newline
+	~\newline
+		$H^P_x = \begin{bmatrix}
+	-1 & 0 & 1 \\ -1 & 0 & 1 \\ -1 & 0 & 1
+	\end{bmatrix} $
+	~\newline
+	~\newline
+	~\newline
+	$\nabla I^P(u,v)\approx \dfrac{1}{6} \cdot \begin{pmatrix}
+	(I\ast H^P_x)(u,v) \\ (I\ast H^P_y)(u,v) 
+	\end{pmatrix}$
+	\paragraph{Sobel} ~\newline
+	~\newline
+	~\newline
+	~\newline
+	$H^S_y = \begin{bmatrix}
+	-1 & -2 & -1 \\ 0 & 0 & 0 \\ 1 & 2 & 1
+	\end{bmatrix} $
+	~\newline
+	~\newline
+	~\newline
+	$H^S_x = \begin{bmatrix}
+	-1 & 0 & 1 \\ -2 & 0 & 2 \\ -1 & 0 & 1
+	\end{bmatrix} $
+	
+	$\nabla I^S(u,v)\approx \dfrac{1}{8} \cdot \begin{pmatrix}
+	(I\ast H^S_x)(u,v) \\ (I\ast H^S_y)(u,v) 
+	\end{pmatrix}$
+	
+	\paragraph{Direction} 
+	~\newline
+	~\newline
+	~\newline
+	$E(u,v) = \sqrt{I_x^2(u,v)+I_y^2(u,v)}$
+	~\newline
+	~\newline
+	~\newline
+	$\Phi(u,v)=\tan^{-1}\left(\dfrac{I_y(u,v)}{I_x(u,v)}\right)=\arctan(I_x(u,v),I_y(u,v))$
+\end{document}
