@@ -87,8 +87,7 @@ $$I_x = \dfrac{\partial I}{\partial x}(u,v) , I_y = \dfrac{\partial I}{\partial 
 @snap[north] <h3> Applying a filter </h3> @snapend
 Transfering the gradient to a *linear filter* is simple:
 
-![iX](images/texLinIX.JPG) <br/>
-![iY](images/texLinY.JPG)
+![iX](images/texLinIX.JPG) and ![iY](images/texLinY.JPG)
 ---
 ## Advanced gradient-based edgedetection
 
@@ -100,8 +99,12 @@ basic Idea how we can apply 3x3 filters to our picture
 @snap[north] 
 <h3>Prewitt Operator</h3> 
 @snapend
-![iX](images/texPrewittX.JPG) ![iY](images/texPrewittY.JPG) 
-
+@snap[east]
+![iX](images/texPrewittX.JPG) 
+@snapend
+@snap[west]
+![iY](images/texPrewittY.JPG) 
+@snapend
 @snap[south]
 ![iX](images/texPrewittGradient.JPG)
 @snapend
@@ -111,8 +114,11 @@ basic Idea how we can apply 3x3 filters to our picture
 @snap[north]
 <h3>Sobel Operator</h3> 
 @snapend
-@snap[midpoint]
-![iX](images/texSobelX.JPG) and ![iY](images/texSobelY.JPG)
+@snap[east]
+![iX](images/texSobelX.JPG) 
+@snapend
+@snap[west]
+![iY](images/texSobelY.JPG)
 @snapend
 @snap[south]
 ![iX](images/texSobelGradient.JPG)
