@@ -96,26 +96,47 @@ $$I_y = \begin{bmatrix} -0.5 & 0 & 0.5 \end{bmatrix} $$
 +++
 ### Using 3x3 filters
 basic Idea how we can apply 3x3 filters to our picture
++++
+where is my text?
++++
+@snap[north] 
+<h3>Prewitt Operator</h3> 
+@snapend
+@snap[east]
+![iX](images/texPrewittX.JPG) 
+@snapend
+@snap[west]
+![iY](images/texPrewittY.JPG) 
+@snapend
+@snap[south]
+![iX](images/texPrewittGradient.JPG)
+@snapend
 
 +++
-@snap[north] <h3>Prewitt Operator</h3> @snapend
-@snap[east]![iX](images/texPrewittX.JPG) @snapend
 
-@snap[west]![iY](images/texPrewittY.JPG) @snapend
+@snap[north]
+<h3>Sobel Operator</h3> 
+@snapend
+@snap[east]
+![iX](images/texSobelX.JPG) 
+@snapend
+@snap[west]
+![iY](images/texSobelY.JPG)
+@snapend
+@snap[south]
+![iX](images/texSobelGradient.JPG)
+@snapend
 
-@snap[south]![iX](images/texPrewittGradient.JPG) @snapend
 +++
-
-@snap[north] <h3>Sobel Operator</h3> @snapend
-@snap[east]![iX](images/texSobelX.JPG) @snapend
-
-@snap[west]![iY](images/texSobelY.JPG) @snapend
-
-@snap[south]![iX](images/texSobelGradient.JPG) @snapend
-+++
-@snap[north]<h3>General Magnitude</h3> @snapend
-@snap[midpoint]![magnitude](images/texGeneralMagnitude.JPG)@snapend
-@snap[south] holds for every Operator @snapend
+@snap[north]
+<h3>General Magnitude</h3>
+@snapend
+@snap[midpoint]
+![magnitude](images/texGeneralMagnitude.JPG)
+@snapend
+@snap[south]
+holds for every Operator 
+@snapend
 +++
 ### Calculating the direction
 show arctang and what it does
