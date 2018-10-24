@@ -96,7 +96,7 @@ Transfering the gradient to a *linear filter* is simple:
 basic Idea how we can apply 3x3 filters to our picture
 
 +++
-<div style="align-content: center;">
+<div style="align-items: center;">
 <h3>Prewitt Operator</h3> 
 <div style="width:100% ; height=60%">
 <img src="images/texPrewittX.JPG" style="width: 40%; height: 100%; margin-top: 0px; border: none; background: none; box-shadow: none;"/> 
