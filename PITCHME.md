@@ -13,16 +13,20 @@ Leonhard Applis - 05.11.2018
 ## What makes an edge?
 +++
 <div>
-<h3> Problem I: similiar colours</h3>
+<div><h3> Problem I: similiar colours</h3></div>
+<div>
     <img src="images/simcolour.png" style="width: 60%; height: 60%; margin-top: 0px; border: none; background: none; box-shadow: none;"/> 
+</div>
 </div>
 +++?image=images/gradientchange.jpg
 ### Problem II: minor changes
 
 +++
 <div>
-<h3> Problem III: Random Noise</h3>
+<div><h3> Problem III: Random Noise</h3></div>
+<div>
     <img src="images/noise.png" style="width: 60%; height: 60%; margin-top: 0px; border: none; background: none; box-shadow: none;"/> 
+</div>
 </div>
 +++
 ### Definition
@@ -82,8 +86,8 @@ Requirements: <br/>
     <h3> Applying a filter </h3>
     <div>Transfering the gradient to a linear filter is simple:</div>
         <div>
-        <img src="images/texLinIX.JPG" style="width: 30%; height: 100%; margin-top: 0px; border: none; background: none; box-shadow: none;"/> 
-        <img src="images/texLinY.JPG" style="width: 30%; height: 100%; margin-top: 0px; border: none; background: none; box-shadow: none;"/> 
+        <img src="texLinIX.JPG" style="width: 30%; height: 100%; margin-top: 0px; border: none; background: none; box-shadow: none;"/> 
+        <img src="texLinY.JPG" style="width: 30%; height: 100%; margin-top: 0px; border: none; background: none; box-shadow: none;"/> 
     </div>
 </div>
 ---
