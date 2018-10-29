@@ -59,7 +59,7 @@ Requirements: <br/>
 <div style="align-items: center;">
 <h3>One dimensional approach</h3> 
     <div style="width:100% ; height=60%">
-        <img src="images/1DGradient.PNG" style="width: 60%; height: 100%; margin-top: 0px; border: none; background: none; box-shadow: none;"/> 
+        <img src="images/1DGradient.png" style="width: 60%; height: 100%; margin-top: 0px; border: none; background: none; box-shadow: none;"/> 
     </div>
 <div style="width:80% ; height=30%">
     take one row of the matrix, and plot a function and a derivative
@@ -86,8 +86,8 @@ Requirements: <br/>
     <h3> Applying a filter </h3>
     <div>Transfering the gradient to a linear filter is simple:</div>
         <div>
-        <img src="texLinIX.JPG" style="width: 30%; height: 100%; margin-top: 0px; border: none; background: none; box-shadow: none;"/> 
-        <img src="texLinY.JPG" style="width: 30%; height: 100%; margin-top: 0px; border: none; background: none; box-shadow: none;"/> 
+        <img src="images/texLinIX.jpg" style="width: 30%; height: 100%; margin-top: 0px; border: none; background: none; box-shadow: none;"/> 
+        <img src="images/texLinY.JPG" style="width: 30%; height: 100%; margin-top: 0px; border: none; background: none; box-shadow: none;"/> 
     </div>
 </div>
 ---
