@@ -11,18 +11,19 @@ Leonhard Applis - 05.11.2018
 
 ---
 ## What makes an edge?
-
 +++
-![Image](images/simcolour.png)
-@snap[north-east] <h3> Problem I: similiar colours</h3> @snapend
-
+<div>
+<h3> Problem I: similiar colours</h3>
+    <img src="images/simcolour.png" style="width: 60%; height: 60%; margin-top: 0px; border: none; background: none; box-shadow: none;"/> 
+</div>
 +++?image=images/gradientchange.jpg
 ### Problem II: minor changes
 
 +++
-### Problem III: random noise
-![Image](images/noise.png )
-
+<div>
+<h3> Problem III: Random Noise</h3>
+    <img src="images/noise.png" style="width: 60%; height: 60%; margin-top: 0px; border: none; background: none; box-shadow: none;"/> 
+</div>
 +++
 ### Definition
 @quote[In Image Processing, an edge can be defined as a set of contiguous pixel positions where an abrupt change of intensity, gray- or color-values occur. Edges represent boundaries between objects and background. Sometimes, the edge-pixel-sequence may be broken due to insufficient intensity difference.](Malay K. Pakhira )
@@ -51,43 +52,41 @@ Requirements: <br/>
 @snapend
 
 +++
-@snap[midpoint]
-![plot](images/1DGradient.PNG)
-@snapend
-
-@snap[north]
-<h3> One dimensional approach </h3>
-@snapend
-
-@snap[south]
-@size[9](take one row of the matrix, and plot a function and a derivative)
-@snapend
-
+<div style="align-items: center;">
+<h3>One dimensional approach</h3> 
+    <div style="width:100% ; height=60%">
+        <img src="images/1DGradient.PNG" style="width: 60%; height: 100%; margin-top: 0px; border: none; background: none; box-shadow: none;"/> 
+    </div>
+<div style="width:80% ; height=30%">
+    take one row of the matrix, and plot a function and a derivative
+</div>
+</div>
 +++
-@snap[south]
-![plot derivative](images/1DGradientApproximation.PNG)
-@snapend
-@snap[north] 
-@size[7](Problem: image can only be seen as discrete function (pixel per pixel))
-<br/>Therefore: $$\dfrac{df}{dx}(u) \approx \dfrac{f(u+1) - f(u-1)}{(u+1)-(u-1)} = \dfrac{f(u+1) - f(u-1)}{2}$$ 
-@snapend
-
+<div style="align-items: center ;">
+    <div> Problem: Image can only be seen as discrete Function (Pixel per Pixel) </div>
+    <div> Therefore: $$\dfrac{df}{dx}(u) \approx \dfrac{f(u+1) - f(u-1)}{(u+1)-(u-1)} = \dfrac{f(u+1) - f(u-1)}{2}$$ </div>   
+</div>
 +++
-@size[7](If working with full images,we got two dimensions and therefore two partial derivations:)
-
-$$I_x = \dfrac{\partial I}{\partial x}(u,v) , I_y = \dfrac{\partial I}{\partial y}(u,v)$$
-
-@size[7](the **gradient** at the point *(u,v)* is)
- ![gradient](texGradient.JPG)
-
-@size[7](And the **magnitude**)  $$|\nabla I|=\sqrt{I_x^2 + I_y^2}$$
+<div>
+    <div>If working with full images,we got two dimensions and therefore two partial derivations:  </div>
+    <div>$$I_x = \dfrac{\partial I}{\partial x}(u,v) , I_y = \dfrac{\partial I}{\partial y}(u,v)$$ </div>
+    <div>the <b>gradient</b> at the point (u,v) is
+        <img src="images/texGradient.JPG" style="width: 70%; height: 100%; margin-top: 0px; border: none; background: none; box-shadow: none;"/> 
+    </div>
+    <div> and the <b>magnitude</b> <br/> $$|\nabla I|=\sqrt{I_x^2 + I_y^2}$$ </div>
+</div>
 +++
 ![2D Derivates](images/2DEdgeGradient.PNG)
 +++
-@snap[north] <h3> Applying a filter </h3> @snapend
-Transfering the gradient to a *linear filter* is simple:
-
-![iX](images/texLinIX.JPG) and ![iY](images/texLinY.JPG)
+<div>
+    <h3> Applying a filter </h3>
+    <div>Transfering the gradient to a linear filter is simple:</div>
+    <div>
+    <img src="images/texLinIX.JPG" style="width: 30%; height: 100%; margin-top: 0px; border: none; background: none; box-shadow: none;"/> 
+    <img src="images/texLinY.JPG" style="width: 30%; height: 100%; margin-top: 0px; border: none; background: none; box-shadow: none;"/> 
+    
+    </div>
+</div>
 ---
 ## Advanced gradient-based edgedetection
 
@@ -107,30 +106,24 @@ basic Idea how we can apply 3x3 filters to our picture
 </div>
 </div>
 +++
-
-@snap[north]
+<div style="align-items: center;">
 <h3>Sobel Operator</h3> 
-@snapend
-@snap[east]
-![iX](images/texSobelX.JPG) 
-@snapend
-@snap[west]
-![iY](images/texSobelY.JPG)
-@snapend
-@snap[south]
-![iX](images/texSobelGradient.JPG)
-@snapend
-
+<div style="width:100% ; height=60%">
+<img src="images/texSobelX.JPG" style="width: 40%; height: 100%; margin-top: 0px; border: none; background: none; box-shadow: none;"/> 
+<img src="images/texSobelY.JPG" style="width: 40%; height:80% ; margin-top: 0px; border: none; background: none; box-shadow: none;"/>
+</div>
+<div style="width:80% ; height=30%">
+<img src="images/texSobelGradient.JPG" style="heigth: 80%; margin-top: 0px; border: none; background: none; box-shadow: none;"/>
+</div>
+</div>
 +++
-@snap[north]
+<div>
 <h3>General Magnitude</h3>
-@snapend
-@snap[midpoint]
-![magnitude](images/texGeneralMagnitude.JPG)
-@snapend
-@snap[south]
-holds for every Operator 
-@snapend
+    <div>
+    <img src="images/texGeneralMagnitude.JPG" style="heigth: 150%; margin-top: 0px; border: none; background: none; box-shadow: none;"/>    
+    </div>
+    <div>holds for every Operator </div>
+</div>
 +++
 ### Calculating the direction
 show arctang and what it does
