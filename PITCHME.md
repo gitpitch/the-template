@@ -37,6 +37,8 @@ For the best viewing experience, press F for fullscreen.
 
 ---?include=template/md/list-content/PITCHME.md
 
+---?include=template/md/boxed-text/PITCHME.md
+
 ---?include=template/md/image/PITCHME.md
 
 ---?include=template/md/sidebox/PITCHME.md
@@ -56,8 +58,13 @@ For the best viewing experience, press F for fullscreen.
 ---
 @title[The Template Docs]
 
-@snap[west headline span-100]
-GitPitch<br>*The Template @css[text-orange](End) ;)*
+@snap[west span-100]
+### **Now it's @color[#E49436](your) turn.**
+
+<br>
+
+#### Use these templates to create custom slides.
+#### **Then amaze your audience with a Git@color[#E49436](Pitch) slideshow @fa[smile-o]**
 @snapend
 
 @snap[south docslink span-100]

@@ -57,15 +57,11 @@ Channel Marketing
 Team intro template.
 @snapend
 
-+++
++++?image=template/img/lovelace.jpg&position=right&size=42% 100%
 @title[Personal Biography]
 
 @snap[north-west bio-name]
 Ada Lovelace
-@snapend
-
-@snap[east span-40]
-![LOVELACE](template/img/lovelace.jpg)
 @snapend
 
 @snap[west about-bio-details span-60]

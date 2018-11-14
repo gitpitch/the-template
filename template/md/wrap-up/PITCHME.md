@@ -127,4 +127,3 @@ Contact info template.
 @snap[north-east template-note text-gray]
 Contact info template.
 @snapend
-
