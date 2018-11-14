@@ -71,6 +71,6 @@ Boxed text fragments template.
 @fa[refresh fa-3x]
 @snapend
 
-@snap[south template-note text-black]
+@snap[south template-note text-white]
 Mixed styles boxed template.
 @snapend
