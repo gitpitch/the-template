@@ -43,7 +43,7 @@ Boxed text fragments template.
 
 +++?color=linear-gradient(120deg, #f6d365 0%, #fda085 100%);
 
-@box[bg-orange text-white rounded](<br>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br><br>)
+@box[bg-orange text-white demo-box-text-padding rounded](Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.)
 
 @snap[south-west template-note text-white]
 <br>Boxed text without title template.
@@ -52,19 +52,19 @@ Boxed text fragments template.
 +++?color=black
 
 @snap[north-west span-35]
-@box[bg-green text-white](1. Plan#<br>Lorem ipsum dolor sit amet eiusmod<br><br>)
+@box[bg-green text-white demo-box-step-padding](1. Plan#Lorem ipsum dolor sit amet eiusmod)
 @snapend
 
 @snap[north-east span-35]
-@box[bg-orange text-white rounded](2. Build#<br>Sed do eiusmod tempor labore<br><br>)
+@box[bg-orange text-white demo-box-step-padding rounded](2. Build#Sed do eiusmod tempor labore)
 @snapend
 
 @snap[south-east span-35]
-@box[bg-pink text-white](3. Measure#<br>Cupidatat non proident sunt in<br><br>)
+@box[bg-pink text-white demo-box-step-padding](3. Measure#Cupidatat non proident sunt in)
 @snapend
 
 @snap[south-west span-35]
-@box[bg-blue text-white waved](4. Repeat#<br>Ut enim ad minim veniam prodient<br><br>)
+@box[bg-blue text-white demo-box-step-padding waved](4. Repeat#Ut enim ad minim veniam prodient)
 @snapend
 
 @snap[midpoint]
@@ -74,3 +74,4 @@ Boxed text fragments template.
 @snap[south template-note text-white]
 Mixed styles boxed template.
 @snapend
+
