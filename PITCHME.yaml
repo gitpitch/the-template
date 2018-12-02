@@ -53,3 +53,11 @@ layout : center
 # https://gitpitch.com/docs/layout-features/snap-layout-slide-transitions
 #
 transition : none
+
+#
+# Twitter Card Settings
+# Doc: https://gitpitch.com/docs/settings/twitter-card
+#
+title : "GitPitch - The Quickstart Template"
+description : "High-utility markdown slide templates for GitPitch presentation authors."
+thumbnail : https://gitpitch.com/gpimg/the-template-thumb.jpg
