@@ -29,12 +29,6 @@ logo : template/img/logo.png
 logo-position : top-left
 
 #
-# Title Setting
-# Doc: https://gitpitch.com/docs/settings/title
-#
-title : "GitPitch Quickstart Template"
-
-#
 # Footnote Setting
 # Doc: https://gitpitch.com/docs/settings/footnote
 #
