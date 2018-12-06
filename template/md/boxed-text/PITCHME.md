@@ -11,7 +11,7 @@
 
 +++?image=template/img/cityscape.png&position=bottom&size=100% 60%
 
-@snap[north span-60]
+@snap[north span-65]
 @box[bg-blue text-white rounded](Tech Meetup News#Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.<br><br>Ut enim ad minim veniam quis.)
 @snapend
 
@@ -25,15 +25,15 @@
 # Step by Step
 @snapend
 
-@snap[north-east span-55 fragment]
+@snap[north-east span-60 fragment]
 @box[bg-purple text-white](Step 1.#Lorem ipsum dolor sit amet, consectetur adipiscing elit.)
 @snapend
 
-@snap[east span-55 fragment]
+@snap[east span-60 fragment]
 @box[bg-orange text-white](Step 2.#Sed do eiusmod tempor incididunt ut labore ut enim ad.)
 @snapend
 
-@snap[south-east span-55 fragment]
+@snap[south-east span-60 fragment]
 @box[bg-pink text-white](Step 3.#Cupidatat non proident sunt in culpa officia veniam quis.)
 @snapend
 
@@ -51,19 +51,19 @@ Boxed text fragments template.
 
 +++?color=black
 
-@snap[north-west span-35]
+@snap[north-west span-40]
 @box[bg-green text-white demo-box-step-padding](1. Plan#Lorem ipsum dolor sit amet eiusmod)
 @snapend
 
-@snap[north-east span-35]
+@snap[north-east span-40]
 @box[bg-orange text-white demo-box-step-padding rounded](2. Build#Sed do eiusmod tempor labore)
 @snapend
 
-@snap[south-east span-35]
+@snap[south-east span-40]
 @box[bg-pink text-white demo-box-step-padding](3. Measure#Cupidatat non proident sunt in)
 @snapend
 
-@snap[south-west span-35]
+@snap[south-west span-40]
 @box[bg-blue text-white demo-box-step-padding waved](4. Repeat#Ut enim ad minim veniam prodient)
 @snapend
 
@@ -72,6 +72,5 @@ Boxed text fragments template.
 @snapend
 
 @snap[south template-note text-white]
-Mixed styles boxed template.
+Mixed styles<br>boxed template.
 @snapend
-

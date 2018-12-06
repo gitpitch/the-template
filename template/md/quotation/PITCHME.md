@@ -24,7 +24,7 @@ Simple quotation with image template.
 +++?image=template/img/moon.jpg&size=cover
 @title[Quote Attributed]
 
-@snap[east text-white span-50]
+@snap[east text-white span-55]
 @quote[Houston, Tranquillity Base here. The Eagle has landed.](Neil Armstrong)
 @snapend
 
@@ -37,6 +37,7 @@ Quotation with attribution template.
 
 @snap[south-east span-50]
 @quote[GitPitch Desktop with speaker notes is AMAZING!](Dave T.)
+<br>
 @snapend
 
 @snap[north-west]

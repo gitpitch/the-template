@@ -17,7 +17,7 @@
 @size[3em](A.)
 @snapend
 
-@snap[east span-70]
+@snap[east span-75]
 <h2>Sunt in @css[text-pink](culpa) officia</h2>
 @snapend
 

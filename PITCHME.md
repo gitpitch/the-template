@@ -1,11 +1,11 @@
 ---?color=linear-gradient(to right, #c02425, #f0cb35)
 @title[Introduction]
 
-@snap[west headline text-white span-70]
+@snap[west text-25 text-bold text-white]
 GitPitch<br>*The Template*
 @snapend
 
-@snap[south-west byline  text-white]
+@snap[south-west byline text-white text-06]
 The Fastest Way From Idea To Presentation.
 @snapend
 
@@ -16,12 +16,9 @@ The Fastest Way From Idea To Presentation.
 
 <br><br>
 
-1. Select only the slide templates that you need.
-1. Customize the template _markdown content_.
-1. Optionally, override template _styles_ and _settings_.
-1. Then present and publish with GitPitch @fa[smile-o]
-<br><br>
-
+@snap[south span-100 text-purple text-05]
+Reuse the *markdown snippet* for any slide in this template within your own @css[text-gold text-bold](PITCHME.md) files.
+@snapend
 
 ---
 @title[Tip! Fullscreen]
@@ -55,18 +52,15 @@ For the best viewing experience, press F for fullscreen.
 
 ---?include=template/md/wrap-up/PITCHME.md
 
----
+---?image=template/img/presenter.jpg
 @title[The Template Docs]
 
-@snap[west span-100]
-### **Now it's @color[#E49436](your) turn.**
-
+@snap[north-west sign-off]
+### **Now it's @color[#e58537](your) turn.**
 <br>
-
-#### Use these templates to create custom slides.
-#### **Then amaze your audience with a Git@color[#E49436](Pitch) slideshow @fa[smile-o]**
+#### Quickstart your next slide deck<br>with @size[1.4em](The GitPitch Template).
 @snapend
 
-@snap[south docslink span-100]
+@snap[south docslink text-gold span-100]
 For supporting documentation see the [The Template Docs](https://gitpitch.com/docs/the-template)
 @snapend

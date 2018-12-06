@@ -33,7 +33,7 @@ Contained background image template.
 +++?image=template/img/batman.png&size=contain&color=linear-gradient(to right, #009fff, #ec2f4b)
 @title[Transparent Background]
 
-@snap[north-east text-white span-20]
+@snap[north-east text-white span-25]
 @quote[It's what I do that defines me.](Bruce Wayne)
 @snapend
 

@@ -21,7 +21,7 @@
 ![WENDY](template/img/profile/wendy.jpg)
 @snapend
 
-@snap[south-west about-team-bio]
+@snap[south-west text-06]
 @color[#4487F2](Wendy Sesay)
 <br><br>
 @fa[twitter](wendy)
@@ -33,7 +33,7 @@ Graphic Designer
 ![ABBY](template/img/profile/abby.jpg)
 @snapend
 
-@snap[south about-team-bio]
+@snap[south text-06]
 @color[#4487F2](Abby Bauer)
 <br><br>
 @fa[github](abbycode)
@@ -45,7 +45,7 @@ Lead Developer
 ![BERRY](template/img/profile/berry.jpg)
 @snapend
 
-@snap[south-east about-team-bio]
+@snap[south-east text-06]
 @color[#4487F2](Berry Nguyen)
 <br><br>
 @fa[linkedin](berryngu)
@@ -57,14 +57,14 @@ Channel Marketing
 Team intro template.
 @snapend
 
-+++?image=template/img/lovelace.jpg&position=right&size=42% 100%
++++?image=template/img/lovelace.jpg&position=right&size=42% 65%
 @title[Personal Biography]
 
 @snap[north-west bio-name]
 Ada Lovelace
 @snapend
 
-@snap[west about-bio-details span-60]
+@snap[west text-08 span-60]
 A gifted mathematician. Born 1815.
 <br><br>
 Inspired by Babbage’s Analytical Engine she imagined the modern-day, general-purpose computer back in 1843.<br><br>Ada is now recognized as the first computer programmer.
