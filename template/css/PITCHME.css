@@ -60,6 +60,30 @@
 
 /** Code-Presenting Template Styles ***/
 
+.hljs {
+  background: none;
+}
+
+.reveal pre {
+  width: 98%;
+  margin: 0px;
+  box-shadow: none;
+}
+
+.reveal pre code {
+  font-size: 1.2em;
+  line-height: 1.2;
+  border-radius: 10px;
+  max-height: 60vh !important;
+  overflow: hidden !important;
+}
+
+@media (device-width: 100vw) and (device-height: 100vh) {
+  .reveal pre code {
+    max-height: 50vh !important;
+  }
+}
+
 /** Header-Footer Template Styles ***/
 
 .header-footer-list-shrink li {
@@ -212,30 +236,6 @@ div.docslink a:hover {
     padding: 17px;
     border-radius: 17px;
     background: rgba(255,255,255,0.2);
-}
-
-.reveal pre {
-  width: 98%;
-  margin: 0px;
-  box-shadow: none;
-}
-
-.reveal pre code {
-  font-size: 1.2em;
-  line-height: 1.2;
-  border-radius: 10px;
-  max-height: 60vh !important;
-  overflow: hidden !important;
-}
-
-@media (device-width: 100vw) and (device-height: 100vh) {
-  .reveal pre code {
-    max-height: 50vh !important;
-  }
-}
-
-.hljs {
-  background: none;
 }
 
 .reveal p span.slide-title {
