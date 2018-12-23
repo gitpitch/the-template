@@ -1,6 +1,6 @@
----?image=template/img/bg/orange.jpg&position=top&size=100% 20%
+---?image=template/img/bg/blue.jpg&position=top&size=100% 20%
 @title[Header Bar + Image Body]
 
-@snap[north text-white span-100]
-@size[1.5em](Lorem Ipsum Dolor Sit Amet)
+@snap[north-west text-white span-100]
+@size[1.5em](Das ist der Action Title)
 @snapend
