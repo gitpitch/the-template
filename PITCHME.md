@@ -2,7 +2,7 @@
 @title[Introduction]
 
 @snap[west text-25 text-bold text-white]
-GitPitch<br>*The Template*
+GitPitch<br>_The Template_
 @snapend
 
 @snap[south-west byline text-white text-06]
@@ -10,23 +10,25 @@ The Fastest Way From Idea To Presentation.
 @snapend
 
 ---
+
 @title[Slide Markdown]
 
-### Each slide in this presentation is provided as a *template*.
+### Each slide in this presentation is provided as a _template_.
 
 <br><br>
 
 @snap[south span-100 text-purple text-05]
-Reuse the *markdown snippet* for any slide in this template within your own @css[text-gold text-bold](PITCHME.md) files.
+Reuse the _markdown snippet_ for any slide in this template within your own @css[text-gold text-bold](PITCHME.md) files.
 @snapend
 
 ---
+
 @title[Tip! Fullscreen]
 
 ![TIP](template/img/tip.png)
 <br>
 For the best viewing experience, press F for fullscreen.
-@css[template-note](We recommend using the *SPACE* key to navigate between slides.)
+@css[template-note](We recommend using the _SPACE_ key to navigate between slides.)
 
 ---?include=template/md/split-screen/PITCHME.md
 
@@ -56,7 +58,9 @@ For the best viewing experience, press F for fullscreen.
 @title[The Template Docs]
 
 @snap[north-west sign-off]
+
 ### **Now it's @color[#e58537](your) turn.**
+
 <br>
 #### Quickstart your next slide deck<br>with @size[1.4em](The GitPitch Template).
 @snapend
