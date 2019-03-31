@@ -62,10 +62,8 @@ For the best viewing experience, press F for fullscreen.
 ---?image=template/img/presenter.jpg
 @title[The Template Docs]
 
-@snap[north-west sign-off]
-### **Now it's @color[#e58537](your) turn.**
-<br>
-#### Quickstart your next slide deck<br>with @size[1.4em](The GitPitch Template).
+@snap[west sign-off]
+### Now it's your turn.
 @snapend
 
 @snap[south docslink text-gold span-100]

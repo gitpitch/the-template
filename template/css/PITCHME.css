@@ -44,14 +44,14 @@
 
 /** Boxed-Text Template Styles ***/
 
-.demo-box-text-padding #boxed-text {
-  padding-top: 1.95em;
-  padding-bottom: 1.95em;
+.box-wide-padding #boxed-text {
+  padding-top: 2em;
+  padding-bottom: 2em;
 }
 
-.demo-box-step-padding #boxed-text {
-  padding-top: 1.8em;
-  padding-bottom: 2.3em;
+.box-narrow-padding #boxed-text {
+  padding-top: 0.6em;
+  padding-bottom: 0.8em;
 }
 
 /** Image Template Styles ***/
@@ -156,7 +156,7 @@
   padding-left: 0.4em;
 }
 
-.sign-off h3, .sign-off h4 {
+.sign-off h2, .sign-off h3 {
   color: white;
 }
 
