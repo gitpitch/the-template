@@ -28,6 +28,9 @@ theme : moon
 logo : template/img/logo_travelgatex_white.png
 logo-position : top-left
 
+logo2 : template/img/logo_travelgatex_white.png
+logo2-position : top-right
+
 #
 # Footnote Setting
 # Doc: https://gitpitch.com/docs/settings/footnote
