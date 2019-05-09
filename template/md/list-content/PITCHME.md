@@ -1,7 +1,7 @@
 ---?image=template/img/pencils.jpg
-@title[List Content Templates]
+@title[Content]
 
-## @color[black](List Content<br>Slide Templates)
+## @color[black](Content<br>Slide Templates)
 
 @fa[arrow-down text-black]
 
@@ -10,8 +10,7 @@
 @snapend
 
 
-+++?image=template/img/spotlight.png&position=top right&size=20% auto
-@title[Title + Concise List]
+@title[The Agenda]
 
 @snap[north-west]
 The Agenda
@@ -19,14 +18,13 @@ The Agenda
 
 @snap[south-west list-content-concise span-100]
 @ol[list-bullets-black](false)
-- Lorem ipsum dolor sit amet
-- Consectetur adipiscing elit
-- Sed do eiusmod tempor
-- Ut enim ad minim veniam
-- Duis aute irure dolor in
-- Excepteur sint occaecat
-- Cupidatat non proident
-- Sunt in culpa qui officia
+- About
+- Why
+- Our history
+- GraphQL vs REST
+- Advantages & disadvantages
+- Time to Code
+- Questions
 @olend
 <br><br>
 @snapend

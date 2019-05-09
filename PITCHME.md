@@ -34,11 +34,11 @@ Reuse the *markdown snippet* for any slide in this template within your own @css
 For the best viewing experience, press F for fullscreen.
 @css[template-note](We recommend using the *SPACE* key to navigate between slides.)
 
+---?include=template/md/list-content/PITCHME.md
+
 ---?include=template/md/split-screen/PITCHME.md
 
 ---?include=template/md/sidebar/PITCHME.md
-
----?include=template/md/list-content/PITCHME.md
 
 ---?include=template/md/boxed-text/PITCHME.md
 
