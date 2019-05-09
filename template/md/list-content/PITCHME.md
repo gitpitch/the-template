@@ -9,9 +9,7 @@
 @snap[south-west list-content-concise span-100]
 @ol
 - About
-- Why
-- Our history
-- GraphQL vs REST
+- Xperiece
 - Advantages & disadvantages
 - Time to Code
 - Questions
