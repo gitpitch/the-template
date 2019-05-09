@@ -52,8 +52,5 @@ GraphQL, the Facebook's language applied to travel
 
 @snap[west sign-off]
 ### Now it's your turn.
-@snapend
 
-@snap[south docslink text-gold span-100]
-For supporting documentation see the [The Template Docs](https://gitpitch.com/docs/the-template)
 @snapend
