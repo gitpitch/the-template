@@ -1,6 +1,6 @@
 @title[The Agenda]
 
-## @color[white](About us)
+## @color[white](Xperience)
 
 @snapend
 
@@ -8,7 +8,7 @@
 
 @snap[south-west list-content-concise span-100]
 @li
-- TravelgateX
+- Why
 - Core Team
 - https://about.me/arquio
 @liend
