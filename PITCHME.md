@@ -9,11 +9,11 @@ Step 3. Copy slide markdown snippets from template/md directory as needed.
 -->
 
 @snap[west text-25 text-bold text-white]
-GitPitch<br>*The Template*
+GraphQL<br>*by TravelgateX*
 @snapend
 
 @snap[south-west byline text-white text-06]
-The Fastest Way From Idea To Presentation.
+GraphQL, the Facebook's language applied to travel
 @snapend
 
 ---
