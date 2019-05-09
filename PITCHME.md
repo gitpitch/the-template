@@ -15,7 +15,6 @@ GraphQL<br>*by TravelgateX*
 GraphQL, the Facebook's language applied to travel
 @snapend
 
----
 ---?include=template/md/list-content/PITCHME.md
 
 ---?include=template/md/split-screen/PITCHME.md
