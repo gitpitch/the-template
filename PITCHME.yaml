@@ -27,10 +27,6 @@ theme : moon
 #
 logo : template/img/logo_travelgatex_white.png
 logo-position : top-left
-
-logo2 : template/img/logo_travelgatex_white.png
-logo2-position : top-right
-
 #
 # Footnote Setting
 # Doc: https://gitpitch.com/docs/settings/footnote
@@ -57,10 +53,10 @@ layout : center
 #
 transition : none
 
-#
-# Twitter Card Settings
-# Doc: https://gitpitch.com/docs/settings/twitter-card
-#
-title : "GitPitch - The Quickstart Template"
-description : "High-utility markdown slide templates for GitPitch presentation authors."
-thumbnail : https://gitpitch.com/gpimg/the-template-thumb.jpg
+# #
+# # Twitter Card Settings
+# # Doc: https://gitpitch.com/docs/settings/twitter-card
+# #
+# title : "GitPitch - The Quickstart Template"
+# description : "High-utility markdown slide templates for GitPitch presentation authors."
+# thumbnail : https://gitpitch.com/gpimg/the-template-thumb.jpg
