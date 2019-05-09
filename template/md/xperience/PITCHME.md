@@ -11,7 +11,7 @@
 - From XMLTravelgate2TravelgateX
 - The TravelgateX Platform
 - Advantages & disadvantages
-- Stack
+- Stack, Community and the Opensource
 @ulend
 <br><br>
 @snapend
