@@ -16,23 +16,27 @@ GraphQL, the Facebook's language applied to travel
 @snapend
 
 ---
-@title[Slide Markdown]
+@title[Title + Verbose List]
 
-### Each slide in this presentation is provided as a *template*.
+@snap[north-west]
+The Key Concepts
+@snapend
 
-<br><br>
+@snap[west list-content-verbose span-100]
+<br>
+@ul[](false)
+- Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+- Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+- Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+- Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+@ulend
+@snapend
 
-@snap[south span-100 text-purple text-05]
-Reuse the *markdown snippet* for any slide in this template within your own @css[text-gold text-bold](PITCHME.md) files.
+@snap[south-west template-note text-gray]
+Verbose unordered list-items template.
 @snapend
 
 ---
-@title[Tip! Fullscreen]
-
-![TIP](template/img/tip.png)
-<br>
-For the best viewing experience, press F for fullscreen.
-@css[template-note](We recommend using the *SPACE* key to navigate between slides.)
 
 ---?include=template/md/list-content/PITCHME.md
 
