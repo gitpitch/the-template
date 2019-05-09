@@ -13,19 +13,19 @@ published : true
 # Theme Setting
 # Doc: https://gitpitch.com/docs/settings/theme
 #
-theme : simple
+theme : moon
 
 #
 # Theme-Override Setting
 # Doc: https://gitpitch.com/docs/settings/custom-theme
 #
-theme-override : template/css/PITCHME.css
+#theme-override : template/css/PITCHME.css
 
 #
 # Logo Setting
 # https://gitpitch.com/docs/settings/logo
 #
-logo : template/img/logo.png
+logo : template/img/logo_travelgatex_white.png
 logo-position : top-left
 
 #
