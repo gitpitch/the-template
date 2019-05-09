@@ -1,7 +1,6 @@
----?image=template/img/pencils.jpg
-@title[Content]
+@title[The Agenda]
 
-## @color[black](Content<br>Slide Templates)
+## @color[white](The Agenda)
 
 @fa[arrow-down text-black]
 
@@ -9,15 +8,15 @@
 [The Template Docs](https://gitpitch.com/docs/the-template)
 @snapend
 
-
++++?image=template/img/spotlight.png&position=top right&size=20% auto
 @title[The Agenda]
 
-@snap[north-west]
-The Agenda
+@snap[north-est]
+The Agenda [ Step-by-Step ]
 @snapend
 
 @snap[south-west list-content-concise span-100]
-@ol[list-bullets-black](false)
+@ol
 - About
 - Why
 - Our history
@@ -25,32 +24,6 @@ The Agenda
 - Advantages & disadvantages
 - Time to Code
 - Questions
-@olend
-<br><br>
-@snapend
-
-@snap[south-west template-note text-gray]
-Concise ordered list-items template.
-@snapend
-
-
-+++?image=template/img/spotlight.png&position=top right&size=20% auto
-@title[Title + List Fragments]
-
-@snap[north-west]
-The Agenda [ Step-by-Step ]
-@snapend
-
-@snap[south-west list-content-concise span-100]
-@ol
-- Lorem ipsum dolor sit amet
-- Consectetur adipiscing elit
-- Sed do eiusmod tempor
-- Ut enim ad minim veniam
-- Duis aute irure dolor in
-- Excepteur sint occaecat
-- Cupidatat non proident
-- Sunt in culpa qui officia
 @olend
 <br><br>
 @snapend
