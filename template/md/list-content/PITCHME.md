@@ -1,41 +1,10 @@
 @title[The Agenda]
 
-## @color[black](The Agenda)
+## @color[white](The Agenda)
 
 @snapend
 
-
-+++?image=template/img/spotlight.png&position=top right&size=20% auto
-@title[Title + Concise List]
-
-@snap[north-west]
-The Agenda
-@snapend
-
-@snap[south-west list-content-concise span-100]
-@ol[list-bullets-black](false)
-- About
-- Why
-- Our history
-- GraphQL vs REST
-- Advantages & disadvantages
-- Time to Code
-- Questions
-@olend
-<br><br>
-@snapend
-
-@snap[south-west template-note text-gray]
-Concise ordered list-items template.
-@snapend
-
-
-+++?image=template/img/spotlight.png&position=top right&size=20% auto
-@title[Title + List Fragments]
-
-@snap[north-west]
-The Agenda [ Step-by-Step ]
-@snapend
+@title[List Fragments]
 
 @snap[south-west list-content-concise span-100]
 @ol
@@ -50,8 +19,6 @@ The Agenda [ Step-by-Step ]
 <br><br>
 @snapend
 
-@snap[south-west template-note text-gray]
-Concise list-item fragments template.
 @snapend
 
 
