@@ -33,6 +33,6 @@ GraphQL, the Facebook's language applied to travel
 @snap[west sign-off]
 ### Now it's your turn.
 #### [GitHub.com/TravelgateX/graphql-parcbit](https://github.com/travelgatex/graphql-parcbit)
-####
+
 
 @snapend
