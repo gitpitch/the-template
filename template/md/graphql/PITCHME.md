@@ -10,10 +10,7 @@
 @ul
 - Introduction
 - How does GraphQL differ?
-- Blocks:
- - Queries
- - Schema
- - Resolvers
+- Blocks: Queries, Schema and Resolvers
 
 @ulend
 <br><br>
