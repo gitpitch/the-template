@@ -4,7 +4,7 @@
 
 @snapend
 
-@title[Xperiece]
+@title[List Fragments]
 
 @snap[south-west list-content-concise span-100]
 @ul

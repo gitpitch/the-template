@@ -1,10 +1,10 @@
-@title[The Agenda]
+@title[About us]
 
 ## @color[white](About us)
 
 @snapend
 
-@title[List Fragments]
+@title[About Us]
 
 @snap[south-west list-content-concise span-100]
 @ul

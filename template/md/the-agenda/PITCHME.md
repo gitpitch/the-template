@@ -4,13 +4,13 @@
 
 @snapend
 
-@title[List Fragments]
+@title[The Agenda]
 
 @snap[south-west list-content-concise span-100]
 @ol
 - About
+- GraphQL
 - Xperiece
-- Advantages & disadvantages
 - Time to Code
 - Questions
 @olend
