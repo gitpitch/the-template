@@ -7,10 +7,10 @@
 @title[List Fragments]
 
 @snap[south-west list-content-concise span-100]
-@li
+@ul
 - Why
 - Core Team
 - https://about.me/arquio
-@liend
+@ulend
 <br><br>
 @snapend
