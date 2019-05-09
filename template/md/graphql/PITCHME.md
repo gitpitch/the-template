@@ -8,7 +8,13 @@
 
 @snap[south-west list-content-concise span-100]
 @ul
-- 
+- Introduction
+- How does GraphQL differ?
+- Blocks:
+ - Queries
+ - Schema
+ - Resolvers
+
 @ulend
 <br><br>
 @snapend

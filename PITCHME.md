@@ -28,9 +28,11 @@ GraphQL, the Facebook's language applied to travel
 ---?include=template/md/questions/PITCHME.md
 
 ---?image=template/img/presenter.jpg
-@title[The Template Docs]
+@title[The End??]
 
 @snap[west sign-off]
 ### Now it's your turn.
+#### [Presentación](https://gitpitch.com/travelgatex/graphql-parcbit)
+#### 
 
 @snapend
