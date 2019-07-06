@@ -1,8 +1,6 @@
 [![GitPitch](https://gitpitch.com/assets/badge.svg)](https://gitpitch.com/gitpitch/the-template)
 
-# GitPitch - The Template
+# GitPitch - Slide Design Templates
 
-*THE FASTEST WAY FROM IDEA TO PRESENTATION*
-
-For details, see the complete template documentation [here](https://gitpitch.com/docs/the-template).
+The GitPitch slide design templates are a collection of markdown snippets that can be used to quickly create high-utility slide designs within your GitPitch slide decks. For details, see the [Slide Design Templates Guide](https://gitpitch.com/docs/the-template).
 

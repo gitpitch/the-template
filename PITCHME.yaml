@@ -1,63 +1,42 @@
 #
-# The Template Settings
-#
-# The default settings below are optimized for this template.
-# Override settings with your own custom values as needed.
-#
-# For further details, see https://gitpitch.com/docs/settings.
+# Slide Design Templates Deck Settings
 #
 
 published : true
 
 #
-# Theme Setting
-# Doc: https://gitpitch.com/docs/settings/theme
+# The Theme Template
+# Doc: https://gitpitch.com/docs/themes/default
 #
-theme : simple
+theme : template
+theme-background : [ "linear-gradient(100deg, white 60%, #1F6ED4 40.2%)" ]
+theme-headline   : [ "Montserrat", "#333", "none" ]
+theme-byline     : [ "Montserrat", "#111111", "none" ]
+theme-text       : [ "Raleway", "#1C1C1C", "none" ]
+theme-links      : [ "#FFF", "#E27924" ]
+theme-code       : [ "Fira Code" ]
+theme-controls   : [ "#C0C0C0" ]
+theme-margins    : [ "0", "15px" ]
 
-#
-# Theme-Override Setting
-# Doc: https://gitpitch.com/docs/settings/custom-theme
-#
-theme-override : template/css/PITCHME.css
+theme-override   : assets/css/PITCHME.css
 
 #
 # Logo Setting
 # https://gitpitch.com/docs/settings/logo
 #
-logo : template/img/logo.png
+logo : assets/img/logo.png
 logo-position : top-left
 
 #
 # Footnote Setting
 # Doc: https://gitpitch.com/docs/settings/footnote
 #
-footnote : "GitPitch - The Fastest Way From Idea To Presentation"
-
-#
-# Highlight (Code) Setting
-# Doc: https://gitpitch.com/docs/settings/highlight
-#
-highlight : atom-one-dark
-
-#
-# Layout Setting
-# Doc: https://gitpitch.com/docs/settings/layout
-#
-layout : center
-
-#
-# Transition Setting
-# This template uses GitPitch Snap-Layouts extensively. For this
-# reason THIS VALUE SHOULD NOT BE MODIFIED. See:
-# https://gitpitch.com/docs/layout-features/snap-layout-slide-transitions
-#
-transition : none
+footnote : "GitPitch Slide Design Templates"
 
 #
 # Twitter Card Settings
 # Doc: https://gitpitch.com/docs/settings/twitter-card
 #
-title : "GitPitch - The Quickstart Template"
-description : "High-utility markdown slide templates for GitPitch presentation authors."
-thumbnail : https://gitpitch.com/gpimg/the-template-thumb.jpg
+title : "GitPitch Slide Design Templates"
+description : "A collection of markdown snippets used to create high-utility slide designs within GitPitch slide decks."
+# thumbnail : assets/img/thumb.png
